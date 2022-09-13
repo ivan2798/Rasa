@@ -1,0 +1,410 @@
+version: "3.1"
+
+nlu:
+  - intent: saludo
+    examples: |
+      - hey
+      - saludos
+      - que onda
+      - buenos dias
+      - buenos días
+      - ¡hola!
+      - hola
+      - holis
+      - buenas tardes
+      - buenas noches
+      - buen dia
+      - bonito dia
+      - ¿ cómo estás ?
+      - ¿ qué onda ?
+      - ¿ qué tal ?
+      - ¿ cómo te va ?
+      - quiubo
+
+  - intent: despedida
+    examples: |
+      - adiós
+      - adios
+      - chao
+      - hasta la vista
+      - nos vemos
+      - bye
+      - hasta pronto
+
+  - intent: afirmar
+    examples: |
+      - claro
+      - cierto
+      - realmente
+      - de verdad
+      - verdaderamente
+      - hola
+      - en efecto
+      - exacto
+      - efectivamente
+      - desde luego
+      - sin duda
+      - evidentemente
+      - si
+      - sí
+      - a mi tambien
+      - tambien a mi
+      - tambien
+      - yo tambien
+      - la verdad tambien
+      - ya se
+      - esta bien
+      - que bien
+
+  - intent: negar
+    examples: |
+      - en absoluto
+      - para nada
+      - que va
+      - de ninguna forma
+      - de ninguna manera
+      - negativo
+      - nones
+      - ni por asomo
+      - ni hablar
+      - ni pernsarlo
+      - ni remotamente
+      - ni en sueños
+      - ni lo sueñes
+      - ni de broma
+      - nunca
+      - de ningún modo
+      - en ningún caso
+      - no
+      - No
+      - noooo
+      - de ningun modo
+      - en ningun caso
+      - ni en un millon de años
+      - jamás
+      - yo tampoco
+      - la verdad no
+      - nel
+
+  - intent: retarBot
+    examples: |
+      - ¿ eres un robot ?
+      - ¿ eres un humano ?
+      - ¿ dónde vives ?
+      - ¿ ómo te llamas ?
+      - ¿ cómo se llaman tus padres ?
+
+  - intent: retarFigura
+    examples: |
+      - ¿ figura favorita ?
+      - ¿ cual es tu [figura](figura) favorita ?
+      - ¿ te gustan las [figuras](figura) ?
+      - [figura](figura) geometrica
+      - tu [figura](figura)
+      - [figuras](figura) ?
+
+  - intent: retarNumero
+    examples: |
+      - ¿ cual es tu [numero](numero) favorito ?
+      - ¿ te gustan los [numeros](numeros) ?
+      - ¿ [numero](numero) favorito ?
+      - tu [numero](numero)
+      - [numeros](numeros) ?
+
+  - intent: retarOperacion
+    examples: |
+      - ¿ cual es tu [operacion](operacion) favorito ?
+      - ¿ te gustan las [operaciones](operaciones) ?
+      - ¿ [operacion](operacion) favorita ?
+      - tu [operacion](operacion)
+      - [operaciones](operaciones) ?
+
+  - intent: gracias
+    examples: |
+      - muchas gracias
+      - gracias
+      - te lo agradezco
+      - te agradezco
+      - gracias por todo
+      - muy agradecido
+      - que amable
+      - un millon de gracias
+      - que amable de tu parte
+      - te debo una
+      - salvaste mi vida
+      - no sé que haría sin ti
+      - te valoro
+
+  - intent: calculadora
+    examples: |
+      - ¿ cuanto es [1](numeroA) [+](signo) [1](numeroB) ?
+      - ¿ cuanto es [uno](numeroA) [mas](signo) [uno](numeroB) ?
+      - ¿ cuanto es [uno](numeroA) [más](signo) [uno](numeroB) ?
+      - ¿ cuanto es [2](numeroA) [-](signo) [2](numeroB) ?
+      - ¿ cuanto es [dos](numeroA) [menos](signo) [dos](numeroB) ?
+      - ¿ cuanto es [3](numeroA) [*](signo) [3](numeroB) ?
+      - ¿ cuanto es [tres](numeroA) [por](signo) [tres](numeroB) ?
+      - ¿ cuanto es [4](numeroA) [/](signo) [4](numeroB) ?
+      - ¿ cuanto es [cuatro](numeroA) [entre](signo) [cuatro](numeroB) ?
+      - ¿ cuanto es [5](numeroA) [+](signo) [5](numeroB) ?
+      - ¿ cuanto es [cinco](numeroA) [mas](signo) [cinco](numeroB) ?
+      - ¿ cuanto es [cinco](numeroA) [más](signo) [cinco](numeroB) ?
+      - ¿ cuanto es [6](numeroA) [-](signo) [6](numeroB) ?
+      - ¿ cuanto es [seis](numeroA) [menos](signo) [seis](numeroB) ?
+      - ¿ cuanto es [7](numeroA) [*](signo) [7](numeroB) ?
+      - ¿ cuanto es [siete](numeroA) [por](signo) [siete](numeroB) ?
+      - ¿ cuanto es [8](numeroA) [/](signo) [8](numeroB) ?
+      - ¿ cuanto es [ocho](numeroA) [entre](signo) [ocho](numeroB) ?
+      - ¿ cuanto es [ocho](numeroA) [dividido](signo) [ocho](numeroB) ?
+      - ¿ cuanto es [9](numeroA) [x](signo) [9](numeroB) ?
+      - ¿ cuanto es [nueve](numeroA) [por](signo) [nueve](numeroB) ?
+
+  - intent: opinar
+    examples: |
+      - ¿ que opinas de el [matematicas](opinion) ?
+      - ¿ tu opinion de los [matematicas](opinion)  ?
+      - ¿ que opinas de la [matematicas](opinion) ?
+      - ¿ tu opinion de las [matematicas](opinion)  ?
+
+  - intent: opinarPersonal
+    examples: |
+      - porque
+      - a si 
+      - y a [ti](ti)
+      - a [ti](ti) tambien
+      - a [ti](ti) tampoco
+      - a [ti](ti)
+      - tambien [tu](tu)
+      - tampoco [tu](tu)
+      - y a [tí](ti)
+      - a [tí](ti) tambien
+      - a [tí](ti) tampoco
+      - a [tí](ti)
+      - tambien [tú](tu)
+      - tampoco [tú](tu)
+      - y [tú](tu)
+      - y [tu](tu)
+      - y eso
+      - cual es el motivo
+      - por que
+      - porque razon
+      - por que razon
+      - porque motivo
+      - por que motivo
+
+  - intent: opinarSentimental
+    examples: |
+      - a [mi](mi)
+      - a nosotros [nos](nos)
+      - [nos](nos)
+      - [mi](mi)
+      - [me](me)
+      - [me](me) parece
+      - [yo](mi)
+      - segun [yo](mi)
+
+  - intent: pi
+    examples: |
+      - ¿ que es [pi](pi) ?
+      - ¿ cuanto es [pi](pi) ?
+      - [pi](pi)
+
+  - intent: queSuma
+    examples: |
+      - ¿ que es [suma](suma) ?
+      - ¿ que es la [suma](suma) ?
+      - ¿ que es una [suma](suma) ?
+      - ¿ que son las [sumas](suma) ?
+      - [sumas](suma)
+      - [suma](suma)
+
+  - intent: queResta
+    examples: |
+      - ¿ que es [resta](resta) ?
+      - ¿ que es la [resta](resta) ?
+      - ¿ que es una [resta](resta) ?
+      - ¿ que son las [restas](resta) ?
+      - [restas](resta)
+      - [resta](resta)
+
+  - intent: queDivision
+    examples: |
+      - ¿ que es [division](division) ?
+      - ¿ que es la [division](division) ?
+      - [division](division)
+      - ¿ que es una [division](division) ?
+      - ¿ que son las [divisiones](division) ?
+      - [divisiones](division)
+      - ¿ que es [división](division) ?
+      - ¿ que es la [división](division) ?
+      - [división](division)
+
+  - intent: queMultiplicacion
+    examples: |
+      - ¿ que es [multiplicacion](multiplicacion) ?
+      - ¿ que es la [multiplicacion](multiplicacion) ?
+      - [multiplicacion](multiplicacion)
+      - ¿ que es multiplicación(multiplicacion) ?
+      - ¿ que es una [multiplicación](multiplicacion) ?
+      - ¿ que son las [multiplicaciones](multiplicacion) ?
+      - [multiplicaciones](multiplicacion)
+      - ¿ que es la [multiplicación](multiplicacion) ?
+      - [multiplicación](multiplicacion)
+
+  - intent: queCirculo
+    examples: |
+      - ¿ que es un [circulo](circulo) ?
+      - ¿ que es el [circulo](circulo) ?
+      - [circulo](circulo)
+      - los [circulos](circulo) ?
+      - ¿ que son los [circulos](circulo) ?
+
+  - intent: queTriangulo
+    examples: |
+      - ¿ que es un [triangulo](triangulo) ?
+      - ¿ que es el [triangulo](triangulo) ?
+      - [triangulo](triangulo)
+      - ¿ que es un [triángulo](triangulo) ?
+      - ¿ que es el [triángulo](triangulo) ?
+      - [triángulo](triangulo)
+      - los [triangulos](triangulo)
+      - ¿ que son los [triangulos](triangulo) ?
+
+  - intent: queRectangulo
+    examples: |
+      - ¿ que es un [rectangulo](rectangulo) ?
+      - ¿ que es el [rectangulo](rectangulo) ?
+      - [rectangulo](rectangulo)
+      - ¿ que es un [rectángulo](rectangulo) ?
+      - ¿ que es el [rectángulo](rectangulo) ?
+      - [rectángulo](rectangulo)
+      - los [rectangulos](rectangulo)
+      - ¿ que son los [rectangulos](rectangulo) ?
+
+  - intent: queCuadrado
+    examples: |
+      - ¿ que es un [cuadrado](cuadrado) ?
+      - ¿ que es el [cuadrado](cuadrado) ?
+      - [cuadrado](cuadrado)
+      - los [cuadrados](cuadrado)
+      - ¿ que son los [cuadrados](cuadrado) ?
+      - ¿ que es un [cuadrilatero](cuadrado) ?
+      - ¿ que es el [cuadrilatero](cuadrado) ?
+      - [cuadrilatero](cuadrado)
+      - los [cuadrilateros](cuadrado)
+      - ¿ que son los [cuadrilateros](cuadrado) ?
+
+  - intent: queRombo
+    examples: |
+      - ¿ que es un [rombo](rombo) ?
+      - ¿ que es el [rombo](rombo) ?
+      - [rombo](rombo)
+      - los [rombos](rombo)
+      - ¿ que son los [rombos](rombo) ?
+
+  - intent: queOvalo
+    examples: |
+      - ¿ que es un [ovalo](ovalo) ?
+      - ¿ que es el [ovalo](ovalo) ?
+      - [ovalo](ovalo)
+      - ¿ que es un [óvalo](ovalo) ?
+      - ¿ que es el [óvalo](ovalo) ?
+      - [óvalo](ovalo)
+      - los [ovalos](ovalo)
+      - ¿ que son los [ovalos](ovalo) ?
+
+  - intent: queTrapecio
+    examples: |
+      - ¿ que es un [trapecio](trapecio) ?
+      - ¿ que es el [trapecio](trapecio) ?
+      - [trapecio](trapecio)
+      - los [trapecios](trapecio)
+      - ¿ que son los [trapecios](trapecio) ?
+
+  - intent: quePentagono
+    examples: |
+      - ¿ que es un [pentagono](pentagono) ?
+      - ¿ que es el [pentagono](pentagono) ?
+      - [pentagono](pentagono)
+      - ¿ que es un [pentágono](pentagono) ?
+      - ¿ que es el [pentágono](pentagono) ?
+      - [pentágono](pentagono)
+      - los [pentagonos](pentagono)
+      - ¿ que son los [pentagonos](pentagono) ?
+
+  - intent: queHexagono
+    examples: |
+      - ¿ que es un [hexagono](hexagono) ?
+      - ¿ que es el [hexagono](hexagono) ?
+      - [hexagono](hexagono)
+      - ¿ que es un [hexágono](hexagono) ?
+      - ¿ que es el [hexágono](hexagono) ?
+      - [hexágono](hexagono)
+      - los [hexagonos](hexagono)
+      - ¿ que son los [hexagonos](hexagono) ?
+
+  - intent: queHeptagono
+    examples: |
+      - ¿ que es un [heptagono](heptagono) ?
+      - ¿ que es el [heptagono](heptagono) ?
+      - [heptagono](heptagono)
+      - ¿ que es un [heptágono](heptagono) ?
+      - ¿ que es el [heptágono](heptagono) ?
+      - [heptágono](heptagono)
+      - los [heptagonos](heptagono)
+      - ¿ que son los [heptagonos](heptagono) ?
+
+  - intent: queOctagono
+    examples: |
+      - ¿ que es un [octagono](octagono) ?
+      - ¿ que es el [octagono](octagono) ?
+      - [octagono](octagono)
+      - ¿ que es un [octágono](octagono) ?
+      - ¿ que es el [octágono](octagono) ?
+      - [octágono](octagono)
+      - los [octagonos](octagono)
+      - ¿ que son los [octagonos](octagono) ?
+
+  - intent: queEneagono
+    examples: |
+      - ¿ que es un [eneagono](eneagono) ?
+      - ¿ que es el [eneagono](eneagono) ?
+      - [eneagono](eneagono)
+      - ¿ que es un [eneágono](eneagono) ?
+      - ¿ que es el [eneágono](eneagono) ?
+      - [eneágono](eneagono)
+      - los [eneagonos](eneagono)
+      - ¿ que son los [eneagonos](eneagono) ?
+
+  - intent: queDecagono
+    examples: |
+      - ¿ que es un [decagono](decagono) ?
+      - ¿ que es el [decagono](decagono) ?
+      - [decagono](decagono)
+      - ¿ que es un [decágono](decagono) ?
+      - ¿ que es el [decágono](decagono) ?
+      - [decágono](decagono)
+      - los [decagonos](decagono)
+      - ¿ que son los [decagonos](decagono) ?
+
+  - intent: queUndecagono
+    examples: |
+      - ¿ que es un [undecagono](undecagono) ?
+      - ¿ que es el [undecagono](undecagono) ?
+      - [undecagono](undecagono)
+      - ¿ que es un [undecágono](undecagono) ?
+      - ¿ que es el [undecágono](undecagono) ?
+      - [undecágono](undecagono)
+      - los [undecagonos](undecagono)
+      - ¿ que son los [undecagonos](undecagono) ?
+
+  - intent: queDodecagono
+    examples: |
+      - ¿ que es un [dodecagono](dodecagono) ?
+      - ¿ que es el [dodecagono](dodecagono) ?
+      - [dodecagono](dodecagono)
+      - ¿ que es un [dodecágono](dodecagono) ?
+      - ¿ que es el [dodecágono](dodecagono) ?
+      - [dodecágono](dodecagono)
+      - los [dodecagonos](dodecagono)
+      - ¿ que son los [dodecagonos](dodecagono) ?

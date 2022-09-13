@@ -1,0 +1,157 @@
+version: "3.1"
+
+rules:
+  - rule: Decir adios siempre
+    steps:
+      - intent: despedida
+      - action: utter_adios
+
+  - rule: Decir si hay retos
+    steps:
+      - intent: retarBot
+      - action: utter_soyBot
+
+  - rule: Decir gracias
+    steps:
+      - intent: gracias
+      - action: utter_agradece
+
+  - rule: Caso default
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default
+
+  - rule: Calculadora
+    steps:
+      - intent: calculadora
+      - action: action_calculadora_numeros
+
+  - rule: numero favorito
+    steps:
+      - intent: retarNumero
+      - action: utter_miNumero
+
+  - rule: figura favorita
+    steps:
+      - intent: retarFigura
+      - action: utter_miFigura
+
+  - rule: operacion favorita
+    steps:
+      - intent: retarOperacion
+      - action: utter_miOperacion
+
+  - rule: opiniones
+    steps:
+      - intent: opinar
+      - action: utter_opinion
+
+  - rule: opiniones dos
+    steps:
+      - intent: opinarPersonal
+      - action: utter_opinion
+
+  - rule: opiniones tres
+    steps:
+      - intent: opinarSentimental
+      - action: utter_feliz
+
+  - rule: pi
+    steps:
+      - intent: pi
+      - action: utter_pi
+
+  - rule: que es suma
+    steps:
+      - intent: queSuma
+      - action: utter_queSuma
+
+  - rule: que es resta
+    steps:
+      - intent: queResta
+      - action: utter_queResta
+
+  - rule: que es division
+    steps:
+      - intent: queDivision
+      - action: utter_queDivision
+
+  - rule: que es multiplicacion
+    steps:
+      - intent: queMultiplicacion
+      - action: utter_queMultiplicacion
+
+  - rule: que es circulo
+    steps:
+      - intent: queCirculo
+      - action: utter_queCirculo
+
+  - rule: que es triangulo
+    steps:
+      - intent: queTriangulo
+      - action: utter_queTriangulo
+
+  - rule: que es rectangulo
+    steps:
+      - intent: queRectangulo
+      - action: utter_queRectangulo
+
+  - rule: que es cuadrado
+    steps:
+      - intent: queCuadrado
+      - action: utter_queCuadrado
+
+  - rule: que es rombo
+    steps:
+      - intent: queRombo
+      - action: utter_queRombo
+
+  - rule: que es ovalo
+    steps:
+      - intent: queOvalo
+      - action: utter_queOvalo
+
+  - rule: que es trapecio
+    steps:
+      - intent: queTrapecio
+      - action: utter_queTrapecio
+
+  - rule: que es pentagono
+    steps:
+      - intent: quePentagono
+      - action: utter_quePentagono
+
+  - rule: que es hexagono
+    steps:
+      - intent: queHexagono
+      - action: utter_queHexagono
+
+  - rule: que es heptagono
+    steps:
+      - intent: queHeptagono
+      - action: utter_queHeptagono
+
+  - rule: que es octagono
+    steps:
+      - intent: queOctagono
+      - action: utter_queOctagono
+
+  - rule: que es eneagono
+    steps:
+      - intent: queEneagono
+      - action: utter_queEneagono
+
+  - rule: que es decagono
+    steps:
+      - intent: queDecagono
+      - action: utter_queDecagono
+
+  - rule: que es undecagono
+    steps:
+      - intent: queUndecagono
+      - action: utter_queUndecagono
+
+  - rule: que es dodecagono
+    steps:
+      - intent: queDodecagono
+      - action: utter_queDodecagono

@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-numeroA",
+      "2": "I-numeroA",
+      "3": "L-numeroA",
+      "4": "U-numeroA",
+      "5": "B-numeroB",
+      "6": "I-numeroB",
+      "7": "L-numeroB",
+      "8": "U-numeroB",
+      "9": "B-opinion",
+      "10": "I-opinion",
+      "11": "L-opinion",
+      "12": "U-opinion",
+      "13": "B-signo",
+      "14": "I-signo",
+      "15": "L-signo",
+      "16": "U-signo",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-numeroA": 1,
+      "I-numeroA": 2,
+      "L-numeroA": 3,
+      "U-numeroA": 4,
+      "B-numeroB": 5,
+      "I-numeroB": 6,
+      "L-numeroB": 7,
+      "U-numeroB": 8,
+      "B-opinion": 9,
+      "I-opinion": 10,
+      "L-opinion": 11,
+      "U-opinion": 12,
+      "B-signo": 13,
+      "I-signo": 14,
+      "L-signo": 15,
+      "U-signo": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

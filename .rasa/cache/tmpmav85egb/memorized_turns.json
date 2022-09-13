@@ -1,0 +1,12 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCW/tjYWAAX6G/Y=": "utter_saludo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCW/loAhpSUlqUXxULU4zYgFAOmENeo=": "utter_matematicas",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCW/loAhpSUlqUXxULUUmZGbWJIKxJnJicW4DYoFAErUUd8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCW/loAhpSUlqUXxULUUmZGbWJIKxJnJicXkGkTAR3mp6YlFtbWxAH3Ha6k=": "utter_animar",
+    "eJylj0EKgDAMBL/SB/iCfkWkhBok0KbSpl5K/27AXkXRw0IWhiE7tz6Ztmc8HHihxNa063AMEa0ZJVARZGVrwawMsVaxpkCoa+oPkiqC2Q32lyOCoIY8lK+ih0WMG+R3zwBTVPZOsZwGTIUS": "action_listen",
+    "eJylj0EKgDAMBL/SB/iCfkWkhBoh0KaSpl5K/m7B3gU9LOzCMLBrt8X1U/AKEJUKe9efEhgyejdHoqrIg20VZTDEY6p3FVLbi71ImipKmOwvRwbFEYpQv4peHsFBkkHMthtWF2x+": "utter_feliz",
+    "eJylj0sKgDAMRK/SA3iCXkWkhJpCoB9JUxeW3t2CXavoYiADj0dmrm1SdWPcDVihFLWq12EiBNRqFE9ZMHa2ZOTOUOxVtMrgy5rag6SIIJvB/nIEEOwhC/mr6GEROOIA/O4dh56OG8dyApylhl4=": "action_listen"
+  }
+}

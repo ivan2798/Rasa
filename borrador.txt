@@ -1,0 +1,116 @@
+  utter_queSuma:
+    - text: "Con el signo +, este signo combina o une dos o mas cifras numericas para volverlas una sola entidad"
+
+  utter_queResta:
+    - text: "Contrario a la suma, dada cierta cantidad eliminar una parte de ella, con el signo -"
+
+  utter_queDivision:
+    - text: "Cuantas veces el numero (divisor) esta contenido en otro numero(dividendo), con el signo /"
+
+  utter_queMultiplicacion:
+    - text: "Sumar tantas veces el numero de la izquierda(multiplicando) como el numero de la derecha(multiplicador) lo indique, signo x o * "
+
+  utter_queCirculo:
+    - text: "Figura geometrica delimitada por circunferencia "
+
+  utter_queTriangulo:
+    - text: "Figura de tres lados "
+
+  utter_queRectangulo:
+    - text: "Parecido al cuadrado pero, 2 lados opuestos tienen la misma longitud"
+
+  utter_queCuadrado:
+    - text: "Figuar de cuatro lados congruentes "
+
+  utter_queRombo:
+    - text: "Figura de 4 lados iguales que no forman angulos rectos "
+
+  utter_queOvalo:
+    - text: "Forma parecida a un huevo"
+
+  utter_queTrapecio:
+    - text: "Cuadrilatero con un par de lados paralelos "
+
+
+
+
+
+
+
+
+
+
+
+
+  utter_queSuma:
+    - text: "Con el signo +, este signo combina o une dos o mas cifras numericas para volverlas una sola entidad"
+    image: "https://www.espaciohonduras.net/images/matematicas/Articulos/matematicas/operaciones_basicas/suma.png"
+
+  utter_queResta:
+    - text: "Contrario a la suma, dada cierta cantidad eliminar una parte de ella, con el signo -"
+    image: "https://www.espaciohonduras.net/images/matematicas/Articulos/matematicas/operaciones_basicas/resta.png"
+
+  utter_queDivision:
+    - text: "Cuantas veces el numero (divisor) esta contenido en otro numero(dividendo), con el signo /"
+    image: "https://www.espaciohonduras.net/images/matematicas/Articulos/matematicas/operaciones_basicas/division.png"
+
+  utter_queMultiplicacion:
+    - text: "Sumar tantas veces el numero de la izquierda(multiplicando) como el numero de la derecha(multiplicador) lo indique, signo x o * "
+    image: "https://www.espaciohonduras.net/images/matematicas/Articulos/matematicas/operaciones_basicas/multiplicacion.png"
+
+  utter_queCirculo:
+    image: "https://sites.google.com/site/figuritasgeometricas/_/rsrc/1339206194345/circulo/circulo.jpg?height=344&width=375"
+
+  utter_queTriangulo:
+    image: "https://sites.google.com/site/figurasgoe/_/rsrc/1340592315242/triangulo/tri.png?height=348&width=368"
+
+  utter_queRectangulo:
+    image: "https://illustoon.com/photo/7416.png"
+
+  utter_queCuadrado:
+    image: "https://www.smartick.es/blog/wp-content/uploads/cuadrado-222x201.png"
+
+  utter_queRombo:
+    image: "https://definicion.de/wp-content/uploads/2014/06/rombo.jpg"
+
+  utter_queOvalo:
+    image: "https://i.pinimg.com/550x/2e/16/d3/2e16d3ca723a85859e87eb0f353828fa.jpg"
+
+  utter_queTrapecio:
+    image: "https://www.caracteristicass.de/wp-content/uploads/2022/02/caracteristicas-del-trapecio.jpg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+  utter_queCirculo:
+    - text: "Figura geometrica delimitada por circunferencia "
+
+  utter_queTriangulo:
+    - text: "Figura de tres lados "
+
+  utter_queRectangulo:
+    - text: "Parecido al cuadrado pero, 2 lados opuestos tienen la misma longitud"
+
+  utter_queCuadrado:
+    - text: "Figuar de cuatro lados congruentes "
+
+  utter_queRombo:
+    - text: "Figura de 4 lados iguales que no forman angulos rectos "
+
+  utter_queOvalo:
+    - text: "Forma parecida a un huevo"
+
+  utter_queTrapecio:
+    - text: "Cuadrilatero con un par de lados paralelos "
+
+suma
+      image: "https://www.smartick.es/blog/wp-content/uploads/propiedad-conmutativa-imagen1.png"

@@ -1,0 +1,105 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+  - story: camino feliz 1
+    steps:
+      - user: |
+          ¿ cómo te va ?
+        intent: saludo
+      - action: utter_saludo
+      - action: utter_matematicas
+      - user: |
+          si
+        intent: afirmar
+
+  - story: camino feliz 2
+    steps:
+      - user: |
+          ¿ cómo te va ?
+        intent: saludo
+      - action: utter_saludo
+      - action: utter_matematicas
+      - user: |
+          si
+        intent: afirmar
+      - action: utter_adios
+      - user: |
+          adios
+        intent: despedida
+
+  - story: camino malo 1
+    steps:
+      - user: |
+          que onda
+        intent: saludo
+      - action: utter_saludo
+      - action: utter_matematicas
+      - user: |
+          nones
+        intent: negar
+      - action: utter_animar
+      - action: utter_adios
+      - user: |
+          adios
+        intent: despedida
+
+  - story: camino malo 2
+    steps:
+      - user: |
+          que onda
+        intent: saludo
+      - action: utter_saludo
+      - action: utter_matematicas
+      - user: |
+          - de ningún modo
+        intent: negar
+      - action: utter_animar
+      - action: utter_adios
+      - user: |
+          adios
+        intent: despedida
+
+  - story: camino malo 3
+    steps:
+      - user: |
+          hey
+        intent: saludo
+      - action: utter_saludo
+      - action: utter_matematicas
+      - user: |
+          que va
+        intent: negar
+      - action: utter_animar
+      - action: utter_adios
+      - user: |
+          adios
+        intent: despedida
+
+  - story: despedida
+    steps:
+      - user: |
+          nos vemos
+        intent: despedida
+      - action: utter_adios
+
+  - story: retar robot
+    steps:
+      - user: |
+          ¿ eres un robot ?
+        intent: retarBot
+      - action: utter_soyBot
+
+  - story: gracias
+    steps:
+      - user: |
+          gracias
+        intent: gracias
+      - action: utter_agradecer
+
+  - story: retar calculadora
+    steps:
+      - user: |
+          ¿ cuanto es 1 + 1
+        intent: calculadora
+      - action: utter_calculadora
